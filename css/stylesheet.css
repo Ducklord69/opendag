@@ -1,0 +1,162 @@
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-img img {
+    max-height: 50px;
+}
+
+
+
+/* Versneld Details */
+.Versneld {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+
+
+
+.Versneld h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.Versneld .Versneld-year {
+    color: #03357c;
+}
+
+.Versneld .new-year {
+    color: #03357c;
+}
+
+.Versneld img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Schedule de kleuren #fc0  #03357c */
+.schedule {
+    padding: 60px 0;
+    background-color: #03357c;
+}
+
+.schedule h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.schedule .note {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 0.875rem;
+    color: #777;
+}
+
+.schedule img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About*/
+.about {
+    padding: 60px 0;
+    background-color: #0099ff;
+}
+
+.about h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* vakken*/
+.vakken {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.vakken h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.vakken .tabel {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+.vakken .tabel-mid {
+    padding: 20px;
+}
+
+.vakken ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Teachers*/
+.teachers {
+    padding: 64px 0;
+    background-color: #f5f5f5;
+}
+
+.teachers h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.teachers .tabel {
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.teachers .tabel-mid {
+    padding: 20px;
+}
+
+.teachers h4 {
+    margin: 0;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #777;
+}
+
+
+
+
